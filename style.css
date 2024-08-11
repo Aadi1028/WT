@@ -69,6 +69,9 @@ cursor: pointer;
     background-color: #ffffff;
     padding: 10px;
     border: 1px solid #ddd;
+    z-index: 1000;
+    width: 250px;
+    text-align: center;
 }
 
 .navbar li:hover .dropdown {
@@ -91,6 +94,7 @@ cursor: pointer;
 .bar{
     background-color: rgba(102,153,76,255);
 }
+
 
 
 .footer-social {
@@ -150,7 +154,6 @@ cursor: pointer;
     text-align: center;
 }
 .about{
-    /* display: flex; */
     justify-content: space-between;
     align-items: center; 
     gap: 30px; 
@@ -160,12 +163,7 @@ cursor: pointer;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
-}
-.about ul{
-    
-    gap: 350px;
-    padding: 0 79px;
+    padding-left: 400px;
 }
 .search-btn{
     border: none;
@@ -183,5 +181,34 @@ cursor: pointer;
 }
 .search-icon{
     transform: translate(-10px, 5px);
-    font-weight: 400;
+}
+.sign-btn button{
+    height: 30px;
+    width: 250px;
+    border:none ;
+    border-radius: 30px;
+    font-size: large;
+    opacity: 0.5;
+}
+.sign-icon{
+    transform: translate(-242px, 6px);
+}
+.cart-btn{
+    height: 40px;
+    width: 41px;
+    border-radius: 50%;
+    opacity: 0.5;
+    
+}
+.cart-icon{
+    transform: translate(-33px, -6px);
+}
+.sign-btn:hover{
+    opacity: 0.6;
+}
+.box {
+    background-image: url("https://templately.com/_next/image?url=https%3A%2F%2Fitems.templately.com%2Fpack-a420d19e41f217b6e92e15c73f79e161%2Fbanner_pack%202.jpg&w=2048&q=75");
+    width: 100vw;
+    height: 80vh;
+    opacity: 0.6;
 }
